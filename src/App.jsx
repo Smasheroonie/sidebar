@@ -1,7 +1,13 @@
+import Homepage from "./Homepage";
 import Sidebar from "./Sidebar";
 
 function App() {
-  return <Sidebar />;
+  return (
+    <>
+      <Homepage />
+      <Sidebar />
+    </>
+  );
 }
 
 export default App;
